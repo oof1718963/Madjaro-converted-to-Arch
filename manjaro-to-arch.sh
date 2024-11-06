@@ -36,3 +36,15 @@ pacman -Rdd   --noconfirm $(pacman -Qq | grep -E 'manjaro|breath')
 cp /usr/share/grub/themes/breeze /boot/grub/themes/
 sed 's/^GRUB_THEME.*$/GRUB_THEME="/boot/grub/themes/breeze/theme.txt"/g' /etc/default/grub -i && grub-mkconfig -o /boot/grub/grub.cfg
 exit 0
+
+
+
+
+
+
+
+
+
+
+
+
